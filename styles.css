@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif; /* Основной шрифт для текста */
     line-height: 1.6;                  /* Увеличиваем межстрочный интервал для читаемости */
     font-size: 16px;                   /* Оптимальный размер шрифта для чтения */
-    color: #333;                       /* Тёмно-серый цвет текста (глазам комфортнее, чем чисто чёрный) */
+    color: #333;                     /* Тёмно-серый цвет текста (глазам комфортнее, чем чисто чёрный) */
     margin: 0;                         /* Убираем стандартные отступы браузера */
     padding: 20px;                     /* Немного внутреннего отступа у страницы */
     background-color: #fff;           /* Белый фон */
@@ -12,7 +12,7 @@ body {
 /* Заголовки */
 h1, h2, h3 {
     font-family: 'Playfair Display', serif; /* Элегантный шрифт для заголовков */
-    color: #222;                            /* Чуть темнее для контраста */
+    color: #222;                          /* Чуть темнее для контраста */
     margin-top: 30px;                       /* Отступ сверху */
     margin-bottom: 10px;                    /* Отступ снизу */
 }
@@ -29,7 +29,7 @@ p {
     position: static;               /* Обычное поведение (по умолчанию) */
     width: 200px;                   /* Ширина блока */
     height: 100px;                  /* Высота блока */
-    background-color: lightblue;    /* Голубой фон */
+    background-color: lightblue;   /* Голубой фон */
     margin-bottom: 20px;            /* Отступ снизу */
 }
 
@@ -40,7 +40,7 @@ p {
     left: 30px;                     /* Сдвигаем вправо */
     width: 200px;                   /* Ширина */
     height: 100px;                  /* Высота */
-    background-color: lightcoral;   /* Красновый фон */
+    background-color: lightcoral;  /* Красновый фон */
     margin-bottom: 20px;            /* Отступ снизу */
 }
 
@@ -51,7 +51,7 @@ p {
     top: 20px;                      /* Отступ сверху */
     width: 220px;                   /* Ширина */
     height: 100px;                  /* Высота */
-    background-color: lightgreen;   /* Зелёный фон */
+    background-color: lightgreen; /* Зелёный фон */
 }
 
 /* --- Absolute (в контейнере) --- */
@@ -60,8 +60,8 @@ p {
     width: 400px;                   /* Ширина контейнера */
     height: 200px;                  /* Высота контейнера */
     margin: 50px auto;              /* Центрируем по горизонтали */
-    background-color: beige;        /* Бежевый фон */
-    border: 2px solid gray;         /* Серая рамка */
+    background-color: beige;      /* Бежевый фон */
+    border: 2px solid gray;       /* Серая рамка */
 }
 
 .absolute-in-container {
@@ -70,7 +70,7 @@ p {
     bottom: 10px;                   /* Прижат к нижнему краю */
     width: 180px;                   /* Ширина */
     height: 80px;                   /* Высота */
-    background-color: orange;       /* Оранжевый фон */
+    background-color: orange;     /* Оранжевый фон */
 }
 
 /* --- Fixed --- */
@@ -104,7 +104,7 @@ p {
 /* --- Sticky --- */
 .container1 {
     height: 2000px;                 /* Высота для прокрутки */
-    background-color: #f9f9f9;      /* Светло-серый фон */
+    background-color: #f9f9f9;    /* Светло-серый фон */
     padding: 10px;                  /* Внутренние отступы */
     border: 2px dashed gray;        /* Пунктирная рамка */
 }
@@ -112,8 +112,8 @@ p {
 .sticky-element {
     position: sticky;               /* "Залипание" при прокрутке */
     top: 0;                         /* Прилипает к верхнему краю окна */
-    background-color: lightblue;    /* Голубой фон */
+    background-color: lightblue;  /* Голубой фон */
     padding: 10px;                  /* Внутренние отступы */
-    border: 1px solid #ccc;         /* Серая рамка */
+    border: 1px solid #ccc;       /* Серая рамка */
     margin: 0;                      /* Убираем стандартные отступы у h2 */
 }
