@@ -1,0 +1,87 @@
+.static-element {
+    position: static;               /* обычное поведение (по умолчанию) */
+    width: 200px;                   /* ширина блока */
+    height: 100px;                  /* высота блока */
+    background-color: lightblue;    /* фон для наглядности */
+    margin-bottom: 20px;            /* отступ снизу, чтобы элементы не слипались */
+}
+
+.relative-element {
+    position: relative;             /* остаётся в потоке, но можно сдвигать */
+    top: 20px;                      /* сдвигаем вниз относительно исходного положения */
+    left: 30px;                     /* сдвигаем вправо относительно исходного положения */
+    width: 200px;                   /* ширина блока */
+    height: 100px;                  /* высота блока */
+    background-color: lightcoral;   /* фон для наглядности */
+    margin-bottom: 20px;            /* отступ снизу для наглядности */
+}
+
+.absolute-page {
+    position: absolute;             /* убирается из потока и позиционируется относительно body */
+    right: 30px;                    /* прижат к правому краю страницы */
+    top: 20px;                      /* отступ сверху от страницы */
+    width: 220px;                   /* ширина блока */
+    height: 100px;                  /* высота блока */
+    background-color: lightgreen;   /* фон для наглядности */
+}
+
+.container {
+    position: relative;             /* чтобы absolute внутри ориентировался на контейнер */
+    width: 400px;                   /* ширина контейнера */
+    height: 200px;                  /* высота контейнера */
+    margin: 50px auto;              /* выравнивание по центру страницы */
+    background-color: beige;        /* фон контейнера для наглядности */
+    border: 2px solid gray;         /* рамка для визуального выделения */
+}
+
+.absolute-in-container {
+    position: absolute;             /* позиционирование относительно .container */
+    right: 10px;                    /* прижимаем к правому краю контейнера */
+    bottom: 10px;                   /* прижимаем к нижнему краю контейнера */
+    width: 180px;                   /* ширина блока */
+    height: 80px;                   /* высота блока */
+    background-color: orange;       /* фон для наглядности */
+}
+
+.fixed-element {
+    position: fixed;                /* элемент фиксирован к окну браузера */
+    bottom: 10px;                   /* прижат к нижнему краю окна */
+    right: 10px;                    /* прижат к правому краю окна */
+    width: 200px;                   /* ширина блока */
+    height: 80px;                   /* высота блока */
+    background-color: violet;       /* фон для наглядности */
+}
+
+/* Специальный контейнер для примера с float */
+.container2 {
+    width: 600px;                  /* ширина контейнера */
+    margin: 0 auto;                /* центрируем контейнер по горизонтали */
+    font-family: Arial, sans-serif;/* задаём читаемый шрифт */
+}
+
+.float-left {
+    float: left;                   /* элемент "плавает" слева */
+    width: 150px;
+    height: 150px;
+    margin-right: 15px;            /* добавляем отступ справа, чтобы текст не прилипал к картинке */
+}
+
+p {
+    text-align: justify;           /* выравнивание текста по ширине для аккуратного вида */
+}
+
+/* Специальный контейнер для примера со sticky */
+.container1 {
+    height: 2000px;                 /* большая высота, чтобы была прокрутка */
+    background-color: #f9f9f9;      /* чуть другой фон для наглядности */
+    padding: 10px;                  /* внутренний отступ */
+    border: 2px dashed gray;        /* рамка для наглядности */
+}
+
+.sticky-element {
+    position: sticky;               /* элемент прилипает при прокрутке */
+    top: 10px;                      /* "прилипает" на 10px ниже верхнего края контейнера/экрана */
+    background-color: lightblue;    /* фон для наглядности */
+    padding: 10px;                  /* внутренний отступ */
+    border: 1px solid #ccc;         /* рамка для визуального выделения */
+}

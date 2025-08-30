@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Units and Color Models in CSS</title>
+   <link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet"> <!-- Подключение Google Fonts: Playfair Display (для заголовка) и Roboto (для текста) -->
+
+</head>
+<body>
+
+    <div class="static-element">Static Element</div>
+
+    <div class="relative-element">Relative Element</div>
+
+    <div class="absolute-page">Absolute (к странице)</div>
+
+    <div class="container">
+        <div class="absolute-in-container">Absolute (в контейнере)</div>
+    </div>
+
+    <div class="fixed-element">Fixed Element</div>
+
+    <!-- Новый контейнер для примера с float -->
+    <div class="container2">
+    <!-- картинка с классом float-left -->
+    <img src="37014028180631746.jpeg" alt="Refreshing Image" class="float-left">
+
+    <!-- текст будет обтекать изображение справа -->
+    <p>
+        Это пример использования свойства <code>float</code> для изображения. 
+        Когда изображение с классом <code>float-left</code> плавает слева, текст обтекает его справа.
+        Вы можете продолжать добавлять больше текста, и он будет обтекать изображение, создавая красивый макет.
+        Свойство <code>float</code> широко используется в веб-дизайне для создания колонок,
+        боковых панелей и других элементов макета.
+    </p>
+</div>
+
+ <!-- Новый контейнер для примера со sticky -->
+    <div class="container1">
+        <div class="sticky-element">I will stick to the top when you scroll down!</div>
+        <p>
+            Много текста внутри контейнера, чтобы была прокрутка. <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+            Pellentesque habitant morbi tristique senectus et netus. <br>
+            Suspendisse potenti. Vivamus finibus, urna at dictum. <br>
+            Duis euismod, nisl at vehicula fermentum, erat ligula. <br>
+            Curabitur vitae justo nec magna posuere varius. <br>
+            Integer eu augue ut nisi malesuada luctus. <br>
+            (и так далее — можно продублировать строки для длинного текста)
+        </p>
+    </div>
+
+</body>
+</html>
